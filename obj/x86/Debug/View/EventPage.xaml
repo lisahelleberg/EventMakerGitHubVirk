@@ -8,16 +8,21 @@
     x:Class="EventMaker.View.EventPage"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Images/Public-Event-Safety_Know-Your-Numbers.jpg"/>
+        </Grid.Background>
+
         <Grid.DataContext>
             <ViewModel:EventViewModel/>
         </Grid.DataContext>
 
-        <ListView x:ConnectionId='1' x:Name="listView" HorizontalAlignment="Left" Height="775" Margin="64,86,0,0" VerticalAlignment="Top" Width="794" ItemsSource="{Binding Instance.EventsList, Mode=TwoWay}" SelectedItem="{Binding SelectedEvent, Mode=TwoWay}">
-        </ListView>
-        <AppBarButton x:ConnectionId='2' x:Name="appBarButton" HorizontalAlignment="Left" Icon="Add" Label="Create Event" Margin="64,923,0,0" VerticalAlignment="Top" Height="98"                           />
-        <AppBarButton x:ConnectionId='3' x:Name="appBarButton1" HorizontalAlignment="Left" Icon="Delete" Label="Delete event" Margin="137,923,0,0" VerticalAlignment="Top" Height="98" Width="62" Command="{Binding DeleteEventCommand}"/>
-        <TextBlock x:ConnectionId='4' x:Name="textBlock" HorizontalAlignment="Left" Margin="1020,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="88" Width="464" Text="{Binding SelectedEvent}"/>
+        <ListView x:ConnectionId='1' x:Name="listView" HorizontalAlignment="Left" Height="379" Margin="64,38,0,0" VerticalAlignment="Top" Width="338" ItemsSource="{Binding Instance.EventsList, Mode=TwoWay}" SelectedItem="{Binding SelectedEvent, Mode=TwoWay}" Background="#FFA8FFA8" FontSize="20"/>
+        <AppBarButton x:ConnectionId='2' x:Name="appBarButton" HorizontalAlignment="Left" Icon="Add" Label="Create Event" Margin="64,443,0,0" VerticalAlignment="Top" Height="98"                            Background="#FFA8FFA8" BorderBrush="#FFA8FFA8" FontSize="20" />
+        <AppBarButton x:ConnectionId='3' x:Name="appBarButton1" HorizontalAlignment="Left" Icon="Delete" Label="Delete event" Margin="340,443,0,0" VerticalAlignment="Top" Height="98" Width="62" Command="{Binding DeleteEventCommand}" Background="#FFFF0C00" FontSize="20"/>
+        <TextBlock x:ConnectionId='4' x:Name="textBlock" HorizontalAlignment="Left" Margin="727,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="88" Width="464" Text="{Binding SelectedEvent}" FontSize="36" />
+        <ListView x:ConnectionId='5' x:Name="listView1" HorizontalAlignment="Left" Height="100" Margin="137,494,0,0" VerticalAlignment="Top" Width="100"/>
+        <ListView x:ConnectionId='6' x:Name="listView3" HorizontalAlignment="Left" Height="100" Margin="638,292,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Page>

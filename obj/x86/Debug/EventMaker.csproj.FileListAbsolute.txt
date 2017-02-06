@@ -195,3 +195,4 @@ C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\obj\
 C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\obj\x86\Debug\EventMaker.csprojResolveAssemblyReference.cache

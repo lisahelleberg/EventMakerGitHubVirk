@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>7319982f-e09b-4a96-ab50-1936301a425b</PackageIdentityName>
     <PackageIdentityPublisher>CN=Kasper</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-05T14:50:49.376</Modified>
+      <Modified>2017-02-05T16:55:25.194</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\bin\x86\Debug\EventMaker.exe">
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\bin\x86\Debug\EventMaker.exe">
       <PackagePath>entrypoint\EventMaker.exe</PackagePath>
-      <Modified>2017-02-05T14:50:48.972</Modified>
+      <Modified>2017-02-05T16:55:24.605</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kasper\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -452,60 +452,76 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T21:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\Images\event_21.jpg">
+      <PackagePath>Images\event_21.jpg</PackagePath>
+      <Modified>2017-02-05T15:16:51.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\Images\hvid.jpg">
+      <PackagePath>Images\hvid.jpg</PackagePath>
+      <Modified>2017-02-05T15:35:36.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\Images\maxresdefault.jpg">
+      <PackagePath>Images\maxresdefault.jpg</PackagePath>
+      <Modified>2017-02-05T16:23:07.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\Images\Public-Event-Safety_Know-Your-Numbers.jpg">
+      <PackagePath>Images\Public-Event-Safety_Know-Your-Numbers.jpg</PackagePath>
+      <Modified>2017-02-05T15:43:10.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-02-04T11:59:45.651</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\bin\x86\Debug\EventMaker.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\bin\x86\Debug\EventMaker.xr.xml">
       <PackagePath>EventMaker.xr.xml</PackagePath>
-      <Modified>2017-02-05T14:50:48.869</Modified>
+      <Modified>2017-02-05T16:55:24.459</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-09-21T19:27:20.633</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-05T14:50:49.271</Modified>
+      <Modified>2017-02-05T16:55:25.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\bin\x86\Debug\Core\EventMaker.exe">
+    <AppxPackagedFile Include="C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\bin\x86\Debug\Core\EventMaker.exe">
       <PackagePath>EventMaker.exe</PackagePath>
-      <Modified>2017-02-05T14:50:49.374</Modified>
+      <Modified>2017-02-05T16:55:25.187</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -1,1 +1,1 @@
-C:\Users\Kasper\Documents\Visual Studio 2015\Projects\EventMaker\EventMaker\EventMaker.csproj;x86
+C:\Users\Kasper\documents\visual studio 2015\Projects\EventMaker\EventMaker\EventMaker.csproj;x86
